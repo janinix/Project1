@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family:"Uncial Antiqua";
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+#about{
+    background-image: url("images/pozadie-about.png");
+    background-size: 100% 100%;
+}
+
+.gradient{
+    background-image: linear-gradient(to right,rgb(24, 23, 23)50%,rgba(201, 46, 46, 0.747));
+}
+
+.nav-gradient{
+    background-image: linear-gradient(to right,rgb(255, 255, 255)0%,rgb(201, 46, 46)45%,black);
+}
+
+.gradient-opacny{
+    background-image: linear-gradient(to left,rgb(24, 23, 23)50%,rgba(201, 46, 46, 0.747));
+}
+
+.links-font{
+    font-size: 1.5rem;
+    
+}
+
+.bg-dark-moje{
+    background-color: rgb(24, 23, 23);
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler{
+    
+    color: rgb(255, 255, 255);
+}
+.me{
+    color: red;
+}
+
+#services-nadpis{
+    
+}
+
+.card{
+    height: 250px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.border-none{
+    border: none;
+}
+
+.cards-bg{
+    background-color: rgb(136, 131, 131);
+}
+
+
+
+#carousel{
+    background-color: rgb(134, 133, 133);
+}
+
+#carousel .carousel-item{
+    height: 650px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  max-height: 550px;
+}
+
+#wordpress-portfolio{
+    height: 550px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+#technologies{
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.skillbar{
+    background-color: rgb(134, 133, 133);
+        width: 85%;
+        border-radius: 15px;
+        height: 35px;
+        
+}
+
+.skill {
+        background-color: red;
+        color: white;
+        text-align: right;
+        font-size: 20px;
+        border-radius: 15px;
+        height: 36px;
+        border: 2px solid rgb(58, 0, 0);
+        
+}
+.html-basics{
+        width: 30%;
+}
+
+.php-scrapping{
+    width: 90%;
+}
+
+/*
+progress{
+    margin-inline: auto;
+    width: 80%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(209, 209, 209);
+    color: rgb(219, 10, 10);
+}
+
+progress::-webkit-progress-bar {background-color: rgb(209, 207, 207); width: 100%;}
+
+progress::-webkit-progress-value {background-color: rgb(231, 14, 14) !important;}
+progress::-moz-progress-bar {background-color: rgb(236, 20, 20) !important;}
+*/
+
+
+
+@media (max-width: 1250px) {
+    .card{
+    height: 300px;
+    }
+}
+@media (max-width: 1266px) {
+    #wordpress-portfolio{
+    height: 500px;
+}
+}
+
+@media (max-width: 766px) {
+    .gradient{
+    background-image: linear-gradient(rgb(24, 23, 23)50%,rgba(201, 46, 46, 0.747));
+    }
+
+    .gradient-opacny{
+        background-image: linear-gradient(rgb(24, 23, 23)50%,rgba(201, 46, 46, 0.747));
+    }
+    
+}
+
+@media (max-width: 620px) {
+    .links-font{
+        font-size: 1.4rem;  
+    } 
+}
