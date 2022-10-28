@@ -7,17 +7,18 @@
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
             integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    -->
 
-    <!-- Font Awesome 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <script src="js/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
-    -->
+    
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,8 +26,8 @@
     <nav class="navbar navbar-dark fw-bold navbar-expand-md nav-gradient sticky-top ">
         <div class="container">
             <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" width="130" height=""></a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"aria-controls="nav" aria-label="Expand navigation" >
-                <span class="navbar-toggler-icon "></span>
+            <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#nav"aria-controls="nav" aria-label="Expand navigation" >
+                <span class="navbar-toggler-icon "><i class="fa fa-bars fs-1"></i></span>
             </button>
             <div class="collapse navbar-collapse text-center " id="nav">
                 <ul class="navbar-nav ms-auto links-font ">
@@ -37,7 +38,7 @@
                         <a href="#services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#technologies" class="nav-link">Technologies</a>
+                        <a href="#stack" class="nav-link">Stack</a>
                     </li>
                     <li class="nav-item  ">
                         <a href="#carousel" class="nav-link">Projects</a>
@@ -67,11 +68,11 @@
                 
               </div>
               <div class="col-md-4 out text-center">
-                  <a href="#" class="" data-bs-toggle="modal" data-bs-target="#modal"><img class="rounded-circle" src="images/ksicht.jpg" alt="môj ksicht" width="350"></a>
+                  <a id="ksitch" href="#" class="" data-bs-toggle="modal" data-bs-target="#modal"><img class="rounded-circle" src="images/ksicht.jpg" alt="môj ksicht" width="350"></a>
                   <div class="modal" id="modal">
                       <div class="modal-dialog modal-dialog-centered">
                           <div class="modal-content">
-                            <div class="modal-body">Toto je moje portfólio a ukážka práce s Bootstrapom</div>
+                            <div class="modal-body">Toto je moje prvé portfólio </div>
                             <div class="modal-footer">
                                 <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                             </div>
@@ -85,21 +86,21 @@
 
     <section id="services">
         <div class="container-fluid bg-danger ">
-            <h2 class="text-center fs-1 m-0 p-0" id="services-nadpis">Services</h2>
+            <h3 class="text-center fs-1 m-0 p-0" id="services-nadpis">Services</h3>
             <div class="row justify-content-around">
-                <div class="col-lg-3 col-md-6 col-8 offset-lg-0 offset-md-1">
+                <div class="col-lg-3 col-md-6 col-8 offset-lg-0 offset-md-1 text-center">
                     <div class="card border border-5 border-dark">
-
+                        <h2>Websites</h2>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-8 offset-lg-0 offset-md-1">
+                <div class="col-lg-3 col-md-6 col-8 offset-lg-0 offset-md-1 text-center">
                     <div class="card border border-5 border-dark">
-
+                        <h2>Web Apps</h2>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-8 offset-lg-0 offset-md-1">
+                <div class="col-lg-3 col-md-6 col-8 offset-lg-0 offset-md-1 text-center">
                     <div class="card border border-5 border-dark">
-                        
+                        <h2>Mobile Apps</h2>
                     </div>
                 </div>
             </div>
@@ -107,16 +108,16 @@
             
         </div>
     </section>
-
+    <!--
     <div class="container-fluid text-center cards-bg mt-0" id="technologies">
           
           <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1">
             <div class="col">
                 <div class="card gradient-opacny fs-5 border rounded-4 bg-dark-moje text-light">
                     <h2 >HTML/CSS</h2>
-                    <!--
+                    
                     <progress  value="60" max="100"> 32%</progress>
-                    -->
+                    
                     <div class="skillbar mx-auto mb-1 ">
                         <div class="skill html-basics ">
                             <p class="float-start ms-1">Basics</p>
@@ -189,6 +190,104 @@
             </div>
         </div>
     </div>
+    -->
+    <div class="container" id="stack">
+        <h2 class="text-center fs-1 m-0 p-0">Stack</h2>
+        <div class="row ">
+            <div class="col-4 stack-card  ">
+                <h4 class="text-center">Frontend</h4>
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/HTML-5-logo-vector-01.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5 >Advanced</h5>
+                    </div>
+                </div>
+
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/CSS-3-01.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Advanced</h5>
+                    </div>
+                </div>
+
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/Bootstrap-01.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Advanced</h5>
+                    </div>
+                </div>
+
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/tailwind-css.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Beginner</h5>
+                    </div>
+                </div>
+
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/JavaScript-01.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Beginner</h5>
+                    </div>
+                </div>
+
+                <div class="stact-item mb-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/Vue-JS-01.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Beginner</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 stack-card bg-light  ">
+                <h4 class="text-center">Backend</h4>
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/django.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Beginner</h5>
+                    </div>
+                </div>
+                
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/php.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Beginner</h5>
+                    </div>
+                </div>
+                
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/nodejs.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Beginner</h5>
+                    </div>
+                </div>
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/Java-01.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Beginner</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 stack-card  ">
+                <h4 class="text-center">Others</h4>
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/git.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Advanced</h5>
+                    </div>
+                </div>
+                
+                <div class="stact-item my-3 d-flex justify-content-center">
+                    <img class="mx-3" src="images/github.png" alt="html" width="50" height="50">
+                    <div class="skill-level d-none d-md-block my-2">
+                        <h5>Advanced</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
     <section id="carousel" class=" d-block">
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -238,45 +337,30 @@
     <div class="container py-4">
     
         <!-- Bootstrap 5 starter form -->
-        <form id="contactForm">
-            <h3 class="text-center">Contact Formular</h3>
+        <form action="mail.php" method="POST" id="contactForm">
+    
             <!-- Name input -->
             <div class="mb-3">
                 <label class="form-label" for="name">Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                <input class="form-control" id="name" type="text" placeholder="Name" />
             </div>
     
             <!-- Email address input -->
             <div class="mb-3">
-                <label class="form-label" for="emailAddress">Email Address</label>
-                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"
-                    data-sb-validations="required, email" />
-                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                <label class="form-label" for="email">Email Address</label>
+                <input class="form-control" id="email" type="email" placeholder="Email Address" />
             </div>
     
             <!-- Message input -->
             <div class="mb-3">
                 <label class="form-label" for="message">Message</label>
-                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"
-                    data-sb-validations="required"></textarea>
-                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-            </div>
-    
-            <!-- Form submissions success message -->
-            <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center mb-3">Form submission successful!</div>
-            </div>
-    
-            <!-- Form submissions error message -->
-            <div class="d-none" id="submitErrorMessage">
-                <div class="text-center text-danger mb-3">Error sending message!</div>
+                <textarea class="form-control" id="message" type="text" placeholder="Message"
+                    style="height: 10rem;"></textarea>
             </div>
     
             <!-- Form submit button -->
             <div class="d-grid">
-                <button class="btn btn-dark btn-lg" type="submit">Submit</button>
+                <button class="btn btn-danger btn-lg" type="submit">Submit</button>
             </div>
     
         </form>
@@ -309,7 +393,8 @@
             </div>
         </div>
     </footer>
-    
+    <!--<script src="js/jquery.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
     <script src="js/script.js"></script>

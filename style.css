@@ -41,16 +41,13 @@ h3{
     color: rgb(255, 255, 255);
 }
 
-.navbar-toggler{
-    
-    color: rgb(255, 255, 255);
-}
+
 .me{
     color: red;
 }
 
 #services-nadpis{
-    
+    color: black;
 }
 
 .card{
@@ -58,6 +55,13 @@ h3{
     margin-top: 12px;
     margin-bottom: 12px;
 }
+
+.stack-card{
+    height: 410px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
 
 .border-none{
     border: none;
@@ -114,6 +118,11 @@ h3{
         border: 2px solid rgb(58, 0, 0);
         
 }
+
+.skill-level{
+    width: 100px;
+}
+
 .html-basics{
         width: 30%;
 }
@@ -166,4 +175,10 @@ progress::-moz-progress-bar {background-color: rgb(236, 20, 20) !important;}
     .links-font{
         font-size: 1.4rem;  
     } 
+}
+
+@media (max-width: 500px) {
+    #ksicht{
+        max-width: 200px;
+    }
 }
